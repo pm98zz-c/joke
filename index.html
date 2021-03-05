@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Yoyo</title>
+
+</head>
+
+<body>
+  <audio controls autoplay loop class="audio1">
+    <source
+      src="https://upload.wikimedia.org/wikipedia/commons/7/7c/LL-Q150_%28fra%29-WikiLucas00-yoyoter_de_la_touffe.wav"
+      type="audio/wav">
+  </audio>
+  <audio controls autoplay loop class="audio2">
+    <source
+      src="https://upload.wikimedia.org/wikipedia/commons/e/e9/LL-Q150_%28fra%29-Lyoko%C3%AF-yoyoter_de_la_touffe.wav"
+      type="audio/wav">
+  </audio>
+  <script>
+    body.on('mouseover', () => {
+      document.querySelector("audio1").play()
+      document.querySelector("audio2").play()
+    })
+  </script>
+</body>
+
+</html>
